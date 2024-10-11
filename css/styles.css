@@ -53,6 +53,10 @@ img {
     gap: 40px;
 }
 
+.header-menu-link {
+padding: 24px 0;
+}
+
 .header-contacts {
     display: flex;
     margin-left: auto;
