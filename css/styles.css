@@ -154,15 +154,23 @@ font-family: "Raleway", sans-serif;
     background-color: #404BBF;
 }
 
-.visually-hidden {
-    display: none;
+.second-section {
+    padding: 120px 0;
 }
+
+.visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;}
 
 .features {
     display: flex;
     gap: 24px;
-        padding-top: 120px;
-        padding-bottom: 120px;
 }
 
 .features-item {
@@ -170,6 +178,7 @@ font-family: "Raleway", sans-serif;
 }
 
 .features-item-list {
+            margin-bottom: 8px;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
