@@ -199,6 +199,7 @@ font-family: "Raleway", sans-serif;
 
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-head {
@@ -209,7 +210,6 @@ font-family: "Raleway", sans-serif;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-        padding-top: 120px;
         max-width: 162px;
         margin: 0 auto 72px auto;
 }
@@ -221,11 +221,13 @@ font-family: "Raleway", sans-serif;
 }
 
 .team-head-emp-descr {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-head-text {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-head-emp-name {
